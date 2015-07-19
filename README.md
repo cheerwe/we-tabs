@@ -68,24 +68,20 @@
 **getLength()**
 
 * 名称：获取导航页签个数
-
 * 参数：
-
     无
-
 * 返回值：
-
     int 导航页签的个数
 
 
 **activeTab(trigger)**
 
-*名称：激活tab
-*参数：
+* 名称：激活tab
+* 参数：
     trigger:
-    +类型：string
-    +说明：需要激活的tab的trigger，该trigger参看HTML代码内，data-role="navs"的li元素包括的a元素的data-trigger属性
-*返回值：
+    + 类型：string
+    + 说明：需要激活的tab的trigger，该trigger参看HTML代码内，data-role="navs"的li元素包括的a元素的data-trigger属性
+* 返回值：
     无
 
 **activeTabByIndex(index)**
