@@ -7,12 +7,12 @@
 **引用**
 
 ````` html
+<script src="http://cdn.bootcss.com/jquery/1.8.0/jquery.min.js"></script>
 
-    <script src="http://cdn.bootcss.com/jquery/1.8.0/jquery.min.js"></script>
+<script src="./we-tabs.js" type="text/javascript"></script>
+<link href="./we-tabs.css" type="text/css" rel="stylesheet"/>
+<link href="./we-tabs-theme.css" type="text/css" rel="stylesheet"/>
 
-    <script src="./we-tabs.js" type="text/javascript"></script>
-    <link href="./we-tabs.css" type="text/css" rel="stylesheet"/>
-    <link href="./we-tabs-theme.css" type="text/css" rel="stylesheet"/>
 `````
 
 
@@ -38,3 +38,26 @@
 `````
 
 **JS代码**
+
+````` js
+<script type="text/javascript">
+    $(function() {
+        var tabs = $('#we-tabs').weTabs({
+            activeIndex:0
+        });
+
+        var index = 4;
+
+        //添加tab
+        $('#btn-add-tab').on('click', function() {
+            tabs.addTab({
+                title: 'Tab' + index,
+                content: '<p>Tab' + index + '</p>'
+            });
+            index++;
+        });
+    });
+
+</script>
+
+`````
