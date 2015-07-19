@@ -1,13 +1,36 @@
+/**
+ * 以下属性内容为在配置个性化主题时，可修改的内容，运行时，如果需要切换多个主题，请保持padding、margin、height、width等值一致，以达到最佳可视效果
+ * 背景色、背景图片、边框颜色、字体颜色、字体粗体等，是设置不同主题时通常需要设置的属性值，此处不一一列举
+*/
+
 .we-tabs-blue{
 
 }
 
+.we-tabs-blue>.navs {
+    padding: 6px 30px 0 30px;
+    height: 33px;
+}
+
 .we-tabs-blue>.navs>a.btn{
     background-color: none;
+    width: 30px;/**该值请与.we-tabs-blue>.navs选择器的padding-left和padding-right保持一致，以达到最佳可是效果*/
 }
 .we-tabs-blue>.navs>a.btn-left{
     background-image: url("./imgs/left.png");
 }
 .we-tabs-blue>.navs>a.btn-right{
     background-image: url("./imgs/right.png");
+}
+
+/*导航页签激活状态下的样式*/
+.we-tabs>.navs>ul>li.active{
+}
+
+.we-tabs-blue>.navs>ul>li>a{
+    padding: 8px 10px;/*设置该值后，请同步设置.we-tabs-blue>.navs的height值，以达到最佳展示效果*/
+}
+
+.we-tabs-blue>.tabs>div{
+    padding: 10px;
 }
