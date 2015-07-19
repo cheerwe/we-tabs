@@ -84,44 +84,45 @@
 * 返回值：
     无
 
+
 **activeTabByIndex(index)**
 
-*说明：根据index激活tab
-*参数：
+* 说明：根据index激活tab
+* 参数：
     index:
-    +类型：int
-    +说明：根据index激活tab
+    + 类型：int
+    + 说明：根据index激活tab
 返回值：
     无
 
-** activeFirstTab()**
+**activeFirstTab()**
 
-*说明：激活第一个tab
-*参数：
+* 说明：激活第一个tab
+* 参数：
     无
-*返回值：
+* 返回值：
     无
 
 
-** activeLastTab()**
+**activeLastTab()**
 
-*说明：激活最后tab
-*参数：
+* 说明：激活最后tab
+* 参数：
     无
-*返回值：
+* 返回值：
     无
 
 **addTab(tabData)**
 
-*说明：添加tab
-*参数：
+* 说明：添加tab
+* 参数：
     tabData:
-    +类型：object
-    +说明：
-        tabData.id：tab的id，默认自动生成
-        tabData.title：tab的标题
-        tabData.content：tab的内容，HTML代码片段
-*返回值：
+    + 类型：object
+    + 说明：
+        - tabData.id：tab的id，默认自动生成
+        - tabData.title：tab的标题
+        - tabData.content：tab的内容，HTML代码片段
+* 返回值：
     无
 
 
