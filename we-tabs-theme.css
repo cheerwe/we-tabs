@@ -1,0 +1,13 @@
+.we-tabs-blue{
+
+}
+
+.we-tabs-blue>.navs>a.btn{
+    background-color: none;
+}
+.we-tabs-blue>.navs>a.btn-left{
+    background-image: url("./imgs/left.png");
+}
+.we-tabs-blue>.navs>a.btn-right{
+    background-image: url("./imgs/right.png");
+}

@@ -1,0 +1,79 @@
+.we-tabs {
+    padding: 0px;
+    margin: 0px;
+}
+
+.we-tabs>.navs {
+    margin: 0px;
+    background-color: #efefef;
+    padding: 6px 30px 0 30px;
+    height: 33px;
+    overflow: hidden;
+    position: relative;
+}
+.we-tabs>.navs>a.btn{
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff0000;
+    display: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.we-tabs>.navs>a.btn-left{
+    left: 0;
+}
+.we-tabs>.navs>a.btn-right{
+    right:0;
+}
+
+
+.we-tabs>.navs>ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: absolute;
+}
+.we-tabs>.navs>ul>li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    float: left;
+}
+.we-tabs>.navs>ul:after{
+    clear:both
+}
+.we-tabs>.navs>ul>li>a{
+    padding: 8px 10px;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+}
+.we-tabs>.navs>ul>li.active{
+    background-color: #fff;
+    border:solid 1px #ddd;
+    border-width: 1px 1px 0px 1px;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+}
+
+
+.we-tabs>.tabs {
+    padding: 0px;
+    margin:0px;
+}
+
+/**容器**/
+.we-tabs>.tabs>div{
+    display: none;
+    padding: 10px;
+    margin:0px;
+}
+
+.we-tabs>.tabs>div.active{
+    display: block;;
+}
