@@ -61,3 +61,69 @@
 </script>
 
 `````
+
+
+## API接口说明
+
+**getLength()**
+
+*名称：获取导航页签个数
+*参数：
+    无
+*返回值：
+    int 导航页签的个数
+
+
+**activeTab(trigger)**
+
+*名称：激活tab
+*参数：
+    trigger:
+    +类型：string
+    +说明：需要激活的tab的trigger，该trigger参看HTML代码内，data-role="navs"的li元素包括的a元素的data-trigger属性
+*返回值：
+    无
+
+**activeTabByIndex(index)**
+
+*说明：根据index激活tab
+*参数：
+    index:
+    +类型：int
+    +说明：根据index激活tab
+返回值：
+    无
+
+** activeFirstTab()**
+
+*说明：激活第一个tab
+*参数：
+    无
+*返回值：
+    无
+
+
+** activeLastTab()**
+
+*说明：激活最后tab
+*参数：
+    无
+*返回值：
+    无
+
+**addTab(tabData)**
+
+*说明：添加tab
+*参数：
+    tabData:
+    +类型：object
+    +说明：
+        tabData.id：tab的id，默认自动生成
+        tabData.title：tab的标题
+        tabData.content：tab的内容，HTML代码片段
+*返回值：
+    无
+
+
+
+
