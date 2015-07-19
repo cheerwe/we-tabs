@@ -1,7 +1,22 @@
 # We-Tabs
-
+--------------------------------
 
 ## 使用说明
+
+
+**引用**
+
+````` html
+
+    <script src="http://cdn.bootcss.com/jquery/1.8.0/jquery.min.js"></script>
+
+    <script src="./we-tabs.js" type="text/javascript"></script>
+    <link href="./we-tabs.css" type="text/css" rel="stylesheet"/>
+    <link href="./we-tabs-theme.css" type="text/css" rel="stylesheet"/>
+`````
+
+
+**HTML代码**
 
 ````` html
 <div id="we-tabs" class="we-tabs-blue">
@@ -21,3 +36,5 @@
     </div>
 </div>
 `````
+
+**JS代码**
